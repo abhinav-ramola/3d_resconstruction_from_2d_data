@@ -52,7 +52,7 @@ Select the dataset directory using the GUI prompt.
 **Input 2D Image → Generated 3D Point Cloud**
 <p align="center">
   <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/view1.png" alt="Input 2D Image" width="300">
-  <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/point_cloud.png" alt="Generated Point Cloud" width="300">
+  <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/Point_Cloud.png" alt="Generated Point Cloud" width="300">
 </p>
 
 ## 5. Mesh Reconstruction
