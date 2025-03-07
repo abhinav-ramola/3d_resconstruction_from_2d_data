@@ -43,14 +43,28 @@ Select the dataset directory using the GUI prompt.
 - Enter an index to predict disparity for a test image.
 - The predicted disparity will be visualized.
 
-### 4. Generate and Visualize 3D Point Cloud
+## 4. Generate and Visualize 3D Point Cloud
 - Select a left image for point cloud generation.
 - The generated point cloud will be saved as a CSV file.
 - The point cloud can be visualized in a 3D plot.
 
-### 5. Mesh Reconstruction
+### Example:
+**Input 2D Image → Generated 3D Point Cloud**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/view1.png" alt="Input 2D Image" width="300">
+  <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/point_cloud.png" alt="Generated Point Cloud" width="300">
+</p>
+
+## 5. Mesh Reconstruction
 - The point cloud is processed to generate a mesh using Open3D.
 - The reconstructed mesh can be visualized.
+
+### Example:
+**Generated 3D Model**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhinav-ramola/3d_resconstruction_from_2d_data/main/3d.png" alt="3D Model Output" width="400">
+</p>
+
 
 ## Output Files
 - `stereo_model.h5`: Trained model
